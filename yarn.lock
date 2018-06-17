@@ -196,9 +196,9 @@ atob@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.1.tgz#ae2d5a729477f289d60dd7f96a6314a22dd6c22a"
 
-auto-bump@^0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/auto-bump/-/auto-bump-0.0.7.tgz#1744e896192b014000454b2c3428d21243cc8ae7"
+auto-bump@0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/auto-bump/-/auto-bump-0.0.8.tgz#241b4cfe53e64bb2787bcc61b8aee363a4005680"
   dependencies:
     cli-color "^1.2.0"
     color "^3.0.0"
