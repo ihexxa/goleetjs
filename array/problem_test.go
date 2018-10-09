@@ -1,7 +1,7 @@
 package array
 
 import (
-	// "fmt"
+	"fmt"
 	"testing"
 )
 
@@ -103,4 +103,12 @@ func TestPartitionLabels(t *testing.T) {
 			t.Fatalf("partition labels", ret, outputs[i])
 		}
 	}
+}
+
+func TestFourSum(t *testing.T) {
+	fmt.Println(fourSum([]int{0, 0, 0, 0}, 0))
+}
+
+func TestNextGreaterElements(t *testing.T) {
+	fmt.Println("nextGreater", []int{3,7,2,1}, nextGreaterElements([]int{3,7,4,1}))
 }
